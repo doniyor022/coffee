@@ -1,0 +1,27 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin flex-center {
+  @include flex;
+  justify-content: center;
+}
+
+@mixin section-bg {
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 300px;
+  width: 100%;
+  content: '';
+}

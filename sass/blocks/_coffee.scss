@@ -1,0 +1,43 @@
+.coffee {
+    margin-bottom: 200px;
+}
+
+
+.our__collection{
+    font-size: 150px;
+    z-index: -1;
+    font-family: 'Fraunces';
+}
+
+
+.coffee__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.coffee__item {
+    padding: 33px 26px 27px 26px;
+    text-align: center;
+}
+
+
+.coffee__item-title {
+    font-family: 'Fraunces';
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.coffee__item-description {
+    font-family: 'Barlow-400';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
