@@ -1,0 +1,48 @@
+.branch {
+    margin-top: 168px;
+    margin-bottom: 168px;
+}
+
+.our__headquarters {
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+    font-family: 'Fraunces';
+}
+
+
+.branch__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.branch__item {
+    margin-right: 108px;
+    text-align: start;
+}
+
+.branch__item-img{
+    margin-bottom: 40px;
+}
+
+
+
+.branch__item-title {
+    width: 255px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    font-family: 'Fraunces';
+}
+
+.branch__item-description {
+    font-family: 'Barlow-400';
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

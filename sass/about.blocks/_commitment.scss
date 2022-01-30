@@ -1,0 +1,33 @@
+.commitment {
+    padding: 168px 0 34px;
+}
+
+.commitment__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commitment__img {
+    border-radius: 10px;
+}
+
+.commitment__content {
+    width: 540px;
+    margin-left: 85px;
+    margin-top: 80px;
+
+}
+
+.commitment__title {
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    font-family: 'Fraunces';
+}
+
+.commitment__description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: 'Barlow-400';
+}

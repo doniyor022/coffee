@@ -1,0 +1,32 @@
+.hero {
+    padding: 45px 0 137px;
+    border-radius: 10px;
+    background-image: url('/img/Bitmap2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.hero__content {
+    width: 495px;
+    margin-top: 45px;
+}
+
+.hero__title {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    font-family: 'Fraunces';
+}
+
+
+.hero__description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-bottom: 56px;
+    font-family: 'Barlow-400';
+}

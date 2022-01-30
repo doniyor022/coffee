@@ -25,3 +25,16 @@
   width: 100%;
   content: '';
 }
+
+@mixin firm-bg {
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 300px;
+  width: 100%;
+  content: '';
+}
