@@ -786,7 +786,11 @@ a {
 
 .our__collection {
   font-size: 150px;
-  z-index: -1;
+  line-height: 1.5;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #83888F;
   font-family: 'Fraunces';
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.0001)), to(#FEFCF7));
   background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
@@ -799,7 +803,7 @@ a {
 .coffee__list {
   list-style: none;
   padding: 0;
-  margin-top: -240px;
+  margin-top: -265px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
