@@ -1,10 +1,15 @@
 .intro {
-    padding: 43px 0 116px;
-    background-image: url('/img/Bitmap.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
+    width: 1310px;
+    margin: 0 auto;
 }
+
+.intro__container {
+    padding-top: 116px;
+    padding-bottom: 117px;
+    background-image: url(../img/Bitmap.jpg);
+}
+
+
 
 .intro__content {
     max-width: 495px;
@@ -32,19 +37,52 @@
 
 
 @media only screen and (max-width: $tablet) {
+
+
     .intro {
-        &__content{
-            max-width: 400px;
-        }
-
-        &__title {
-            font-size: 48px;
-          }
-
-        &__description{
-            font-size: 15px;
-            line-height: 24px;
-        }
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
+    .intro__container {
+        
+    }
+
+    .intro__content {
+        width: 398px;
+    }
+
+
+    .intro__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .intro__description {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+
+}
+
+@media only screen (max-width: $mobile) {
+    .intro__container {
+        justify-content: center;
+    }
+
+    .intro__content {
+        width: 279px;
+    }
+
+
+    .intro__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .intro__description {
+        font-size: 15px;
+        line-height: 25px
+    }
 }
