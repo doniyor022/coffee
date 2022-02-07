@@ -1,9 +1,10 @@
 .benefits {
+  display: none;
   color: #fff;
 }
 
 .benefits__container {
-  width: 1280px;
+  max-width: 1280px;
   padding: 100px 85px;
   text-align: center;
   position: relative;

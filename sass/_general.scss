@@ -20,11 +20,7 @@ a {
   text-decoration: none;
 }
 
-.container{
-  width: 1111px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -41,4 +37,15 @@ a {
   background: #0E8784;
   border-radius: 6px;
   font-family: 'Fraunces';
+  transition: 150ms;
+  
+  &:hover{
+    background: #66D2CF;
+  }
+
+  &:active{
+    background: #E2DEDB;
+    color: #000;
+  }
+
 }

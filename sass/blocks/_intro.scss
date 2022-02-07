@@ -3,10 +3,11 @@
     background-image: url('/img/Bitmap.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
 }
 
 .intro__content {
-    width: 495px;
+    max-width: 495px;
     margin-top: 117px;
 }
 
@@ -30,3 +31,20 @@
 
 
 
+@media only screen and (max-width: $tablet) {
+    .intro {
+        &__content{
+            max-width: 400px;
+        }
+
+        &__title {
+            font-size: 48px;
+          }
+
+        &__description{
+            font-size: 15px;
+            line-height: 24px;
+        }
+    }
+
+}
