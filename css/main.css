@@ -654,7 +654,7 @@ a {
 
 .header__container {
   max-width: 1280px;
-  padding: 18px 0 17px;
+  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -670,7 +670,6 @@ a {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  font-weight: 700;
 }
 
 .header__nav-list {
@@ -680,14 +679,17 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Barlow-700';
+  margin-right: 33px;
+}
+
+.header__nav-list:last-child {
+  margin-right: 0;
 }
 
 .header__nav-link {
   display: inline-block;
   text-decoration: none;
   padding: 16px 0;
-  margin-right: 33px;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -695,6 +697,7 @@ a {
   margin-left: 20px;
   -webkit-transition: 150ms;
   transition: 150ms;
+  font-family: 'Barlow-700';
 }
 
 .header__nav-link:hover {
@@ -752,16 +755,12 @@ a {
 }
 
 @media only screen and (max-width: 1310px) {
-  .header__nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  .header__container {
+    width: 95%;
+    margin: 0 auto;
   }
   .logo__img {
-    width: 235px;
+    width: 230px;
     height: 25px;
   }
   .header__nav-link {
@@ -773,13 +772,19 @@ a {
 }
 
 @media only screen and (max-width: 719px) {
+  .logo__img {
+    width: 140px;
+    height: 16px;
+  }
+  .header {
+    padding: 32px;
+  }
   .header__burger {
     display: block;
   }
   .header__nav {
     display: none;
     height: calc(100vh - 72px);
-    background: #2C2830;
     width: 100%;
     padding: 40px 24px;
     position: absolute;
@@ -792,6 +797,8 @@ a {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #FEFCF7));
+    background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
   }
   .header__nav-list {
     display: block;
@@ -806,13 +813,9 @@ a {
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 1.36364px;
-    color: #fff;
+    color: #333D4B;
     text-align: center;
-  }
-  .header__view {
-    text-align: center;
-    border-color: #fff;
-    color: #fff;
+    font-family: 'Fraunces';
   }
   .header__nav--opened {
     display: -webkit-box;
